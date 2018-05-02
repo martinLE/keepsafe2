@@ -13,8 +13,8 @@ export default class PremiumUpsellScreenTwo extends Component {
     const { config } = this.props;
     const prices = getPricesfromConfig(config);
     const content = {
-      'image': require('./aspirationalPaywall2Img.jpg'),
-      'headline': 'Privacy gives me the freedom to be me',
+      'image': require('./aspirationalPaywall1Img.jpg'),
+      'headline': 'Your secrets are safe with us',
       'text' : `Keepsafe Premium for ${prices[0].monthlyPriceLocal}/mo`,
     };
     return (
