@@ -7,13 +7,13 @@ export default StyleSheet.create({
     container: {
       flex: '1',
       flexDirection: 'column',
-      justifyContent: 'flex-end',
+      justifyContent: 'space-between',
       backgroundColor: 'white',
       
     },
     image: {
-      width: '100%',
-      resizeMode: Image.resizeMode.cover,
+      width: width,
+      height: width * 1.213
     },
     contentArea: {
       width: width,
